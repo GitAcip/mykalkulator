@@ -1,0 +1,93 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body {
+background: rgb(247, 91, 91);
+}
+.calculator {
+  background: rgb(0, 255, 221);
+  padding: 10px;
+  border-radius: 5%;
+}
+.textView {
+  width: 220px;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 3px;
+}
+.button {
+  width: 50px;
+  height: 40px;
+  font-size: 22px;
+  margin: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px #fdfd;
+}
+.button:hover {
+  box-shadow: 0px 0px 3px black;
+}
+.equal {
+  height: 110px;
+}
+.equal:hover {
+  background: gold;
+}
+.del:hover {
+  background: darkorange;
+  color: white;
+}
+
+.zero {
+  background: darksalmon;
+  width: 110px;
+}
+.tujuh:hover {
+  background: deeppink;
+  color: black;
+}
+.delapan:hover {
+  background: deeppink;
+  color: black;
+}
+.sembilan:hover {
+  background: deeppink;
+  color: black;
+}
+.enam:hover {
+  background: deeppink;
+  color: black;
+}
+.lima:hover {
+  background: deeppink;
+  color: black;
+}
+.empat:hover {
+  background: deeppink;
+  color: black;
+}
+.tiga:hover {
+  background: deeppink;
+  color: black;
+}
+.dua:hover {
+  background: deeppink;
+  color: black;
+}
+.satu:hover {
+  background: deeppink;
+  color: black;
+}
+.C:hover {
+  background: rgb(221, 247, 106);
+  color: black;
+}
