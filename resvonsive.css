@@ -1,0 +1,22 @@
+/** @format */
+@media all and (max-width: 1000px) {
+    
+    .contaner {
+       width: 50%;
+     }
+     table {
+      display: flex;
+
+     }
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px ) {
+    body {
+     width: 50%;
+     
+    }
+    table {
+      display: block;
+    }
+  }
